@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  margin: 0;
+  background-color: #000000;
+  font-family: 'Roboto', sans-serif; }
+
+#wrapper {
+  max-width: 90%;
+  margin: 0 auto;
+  width: 1100px;
+  position: relative; }
+
+#footer {
+  position: relative;
+  background-color: #424242;
+  height: 200px;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: 50px; }
+
+.post {
+  position: relative;
+  background-color: #424242;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 50px; }
+
+.socialLinks {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  padding: 85px;
+  justify-content: flex-end;
+  margin-top: 50px; }
+
+.socialLink {
+  margin-left: 50px; }
+  .socialLink:hover {
+    color: #fff; }
+
+#footer ~ .facebook:hover {
+  background-color: #3b5998; }

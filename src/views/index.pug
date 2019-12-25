@@ -2,5 +2,18 @@ doctype html
 html(lang="en")
     head
         title Technobabble.io
+        link(rel="stylesheet" href="/public/css/style.css")
         link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
-    body test
+        script(src="https://kit.fontawesome.com/e8b73d85f5.js" crossorigin="anonymous")
+        script(src="https://code.jquery.com/jquery-3.4.1.min.js")
+        script(src="/public/js/UI.js")
+    body
+    div#content
+        div#wrapper
+            footer#footer
+                div.socialLinks
+                    span.socialText Find us on: 
+                    span.fab.fa-facebook-f.socialLink.facebook
+                    span.fab.fa-twitter.socialLink
+                    span.fab.fa-instagram.socialLink
+                    span.fab.fa-github.socialLink
