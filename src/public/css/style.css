@@ -37,6 +37,3 @@ body {
   margin-left: 50px; }
   .socialLink:hover {
     color: #fff; }
-
-#footer ~ .facebook:hover {
-  background-color: #3b5998; }
