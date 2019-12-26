@@ -2,18 +2,21 @@ doctype html
 html(lang="en")
     head
         title Technobabble.io
-        link(rel="stylesheet" href="/public/css/style.css")
+        link(rel="stylesheet" href="./public/css/style.css")
         link(rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons")
         script(src="https://kit.fontawesome.com/e8b73d85f5.js")
         script(src="https://code.jquery.com/jquery-3.4.1.min.js")
-        script(src="/public/js/UI.js")
+        script(src="./public/js/UI.js")
     body
         div#content
             div#wrapper
-                footer#footer
+                div.post
+                div.post
+                footer#footer.footerDefault
                     div.socialLinks
                         span.socialText Find us on: 
                         span#facebook.fab.fa-facebook-f.socialLink
-                        span.fab.fa-twitter.socialLink
-                        span.fab.fa-instagram.socialLink
-                        span.fab.fa-github.socialLink
+                        span#twitter.fab.fa-twitter.socialLink
+                        a(href="https://www.instagram.com/technobabble.io/")
+                            span#instagram.fab.fa-instagram.socialLink
+                        span#github.fab.fa-github.socialLink

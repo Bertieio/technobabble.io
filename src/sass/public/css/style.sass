@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap')
 
 $BG-color: #000000
-$FT-color: #424242
+$FT-color: #141414
+$FT-fontColor: #797979
 
 body
     margin: 0
     background-color: $BG-color
     font-family: 'Roboto', sans-serif
+
+a
+    color: inherit
 
 #wrapper
     max-width: 90%
@@ -16,16 +20,16 @@ body
 
 #footer
     position: relative
-    background-color: $FT-color
     height: 200px
     width: 100%
     bottom: 0
     margin-bottom: 50px
+    color: $FT-fontColor
 
 .post
     position: relative
     background-color: $FT-color
-    height: 200px
+    height: 250px
     width: 100%
     margin-bottom: 50px
 
@@ -36,12 +40,27 @@ body
     padding: 85px; 
     justify-content: flex-end
     margin-top: 50px
+    text-decoration: none
 
 .socialLink
     margin-left: 50px;
     &:hover
         color: #fff
 
-// FB #3b5998
+.footerDefault
+    background: $FT-color
+
+.footerFB
+    background: #3b5998
         
-        
+.footerTW
+    background: #55acee
+
+.footerIN
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+
+.footerGH
+    background: #6cc644
